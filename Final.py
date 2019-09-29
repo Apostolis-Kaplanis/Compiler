@@ -1,6 +1,3 @@
-#Apostolhs Kaplanhs AM:1998	username:cs101998
-#Giwrgos Kokkinos AM:2462	username:cse32462
-
 import string
 import sys					#file as arguement in command line.
 import copy					#deep-copy lists
