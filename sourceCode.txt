@@ -1,0 +1,69 @@
+program ProgramName1{
+	\*variable declarations*\
+	declare var1, var2 enddeclare
+
+	\*subprograms*\
+	procedure ProcedureName1(in var3, inout var4){
+		\**variable declarations**\
+		declare var5, var6 enddeclare
+		
+		\**subprograms**\
+		function FunctionName1(){
+			declare aa enddeclare
+			return(a);	
+		}
+		
+		\**sequence of statements**\
+		\*assignment-statement*\
+		var7:=123;	\*Constant*\
+		var8:=(a+b-c);	\*Expressions*\
+		var9:=((a*b)/c + d);
+		var10:=var5;	\*Variable*\
+		
+		print(var1);
+
+		\*if-statement*\
+		if(not [variableOrDigitOrExpression >= (expression)] and [(expression)=123] or
+		123 > variable){
+		
+		}
+		\*else-statement Unnesassary*\
+		else{};
+		
+		\*do-while-statement*\
+		do{
+		}while(a>b);
+
+		\*while-statement*\
+		while(a=b){
+		};
+		
+		\*select-statement*\
+		select(variableID)
+		1: {}
+		2: {}
+		3: {}
+		default: {}
+		
+	}
+	function FunctionName2(in a, inout b, inout c){
+		declare bb enddeclare
+		return(a);	
+	}
+	function FunctionName3(in a, inout b, inout c){
+		declare cc, dd enddeclare
+		return(a);	
+	}
+	\*sequence of statements*\
+	\*if-statement without else part*\
+	if(abc < 123){
+		abc:=123;
+	};
+	
+	\*call: *\
+	call name2(in a, inout b); 	\*procedure call*\
+	error := name3(in a, inout b)	\*function call*\
+
+	
+
+}
