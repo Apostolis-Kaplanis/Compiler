@@ -5,7 +5,7 @@ This project is about the development of a **compiler** for a language that comb
 Taking as input some code ec: sourceFile.txt and export the final-programm. This **compiler** can identify every *error* and *warning* that violates the rules and prints them on the user's screen.
 
 Code is analysed via 7 phases:
- * Verbal analysis (state diagram)
+ * Verbal analysis (states diagram)
  * Editorial analysis (LL(1) grammar)
  * Semantic analysis
  * Production of Intermediate code (Scopes, Entities, Arguments)
