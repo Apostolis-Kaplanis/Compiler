@@ -1,6 +1,6 @@
 # Compiler
 
-This project is about the development of a **compiler** for a language that combine elements from C & Pascal.
+This project is about the development of a **compiler** for a language that combine elements from C & Pascal, written in Python.
 
 Taking as input some code ec: sourceFile.txt and export the final-programm. This **compiler** can identify every *error* and *warning* that violates the rules and prints them on the user's screen.
 
